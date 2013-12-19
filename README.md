@@ -9,6 +9,33 @@ Esta versión está escrita en `stylus`. Se tiene las animaciones en formato de 
 
 Para que funcione correctamente se debe importar el archivo `keyframes.styl` sobre `animate.styl` ó `animate-mixins.styl`
 
+##Instrucciones
+
+Tener instalado `stylus` y `nib`
+
+`npm install stylus`
+
+`npm install nib`
+
+En tu hoja de estilos importar los siguiente:
+
+    @import "keyframes.styl"
+    @import "animate.styl"
+    @import "animate-mixins.styl"
+
+nib ya se importa en keyframes ya que es el archivo necesario para cualquiera de los otros 2 archivos.
+
+Si se quiere utilizar sobre un elemento para el hover:
+
+   .elemento
+   	&:hover
+   		animated()
+		animatedpulse()
+
+Los nombres de los mixins tienen el formato `animatedNOMBREANIMACION`
+
+==================
+
 Para más información visitar http://daneden.me/animate/
 
 ## License
