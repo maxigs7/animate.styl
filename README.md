@@ -27,10 +27,10 @@ nib ya se importa en keyframes ya que es el archivo necesario para cualquiera de
 
 Si se quiere utilizar sobre un elemento para el hover:
 
-   .elemento
-   	&:hover
-   		animated()
-		animatedpulse()
+    .elemento
+    	&:hover
+    		animated()
+    		animatedpulse()
 
 Los nombres de los mixins tienen el formato `animatedNOMBREANIMACION`
 
